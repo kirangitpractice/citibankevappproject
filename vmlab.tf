@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "example" {
   name     = "kiranresourcgroup"
-  location = "us-east-region"
+  location = "sydeny-region"
 }
 
 module "windowsservers" {
